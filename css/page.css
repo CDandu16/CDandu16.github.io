@@ -1,15 +1,37 @@
 body {
-  background-color: #7529E8; }
+  margin: 0; }
 
-.center_text {
+.text-main {
   font-size: 300%; }
 
-.container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  background-size: 100%; }
+.text-other {
+  font-size: 200%; }
+
+.center {
+  text-align: center; }
+
+.paragraphText {
+  font-size: 200%; }
+
+#about {
+  background-color: #FF463A;
+  margin: 0;
+  display: flex;
+  flex-direction: column; }
+
+#home {
+  background-color: #7529E8;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; }
+
+#projects {
+  background-color: #1EDAFF;
+  margin: 0;
+  display: flex;
+  flex-direction: column; }
 
 /*# sourceMappingURL=page.css.map */

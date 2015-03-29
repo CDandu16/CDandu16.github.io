@@ -2,53 +2,23 @@
 
 <html>
     <head>
-      <title>Chaitu Website</title>
+      <title>My Website</title>
       <link href="css/page.css" type="text/css" rel="stylesheet" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     </head>
 
     </body>
      <script src="https://ajax.googleapis.com/ajax/libs/threejs/r69/three.min.js"></script>
-     <!--<script>
-      var scene = new THREE.Scene();
-			var camera = new THREE.PerspectiveCamera(50, window.innerWidth/window.innerHeight, 0.1, 1000 );
-
-			var renderer = new THREE.WebGLRenderer();
-			renderer.setSize( window.innerWidth, window.innerHeight );
-			document.body.appendChild( renderer.domElement );
-
-			var geometry = new THREE.BoxGeometry( 1, 1, 1 );
-			var material = new THREE.MeshBasicMaterial( { color: 0x03A9F4 } );
-			var cube = new THREE.Mesh( geometry, material );
-			scene.add( cube );
-
-			camera.position.z = 10;
-
-			var render = function () {
-				requestAnimationFrame(render);
-                //cube.position.x = window.innerWidth/2;
-                //cube.position.y = window.innerHeight/2;
-
-				cube.rotation.x += 0.1;
-				cube.rotation.y += 0.1;
-
-				renderer.render(scene, camera);
-                renderer.setClearColor(0xFF463AFF463A);
-			};
-
-			render();
-            /*var jQueryWidth = $( window ).width();
-            var jQueryHeight = $( window ).height();*/
-     </script>
-
-     <div class = "container">
-       <p>Under Construction</p>
-     </div>-->
-     <div class = "container">
-       <p class = "center_text">Welcome to my unfinished site</p>
-     </div>
-     <div class = "github">
-       
-     </div>
+       <section id = "home">
+         <h1 class = "text-main center">Welcome to my unfinished site</h1>
+       </section>
+       <section id = "about" >
+         <h1 class = "text-other center">About Me</h1>
+         <p class = "center paragraphText">I'm a high school student in 11th grade</p>
+       </section>
+       <section id = "projects">
+         <p class = "center paragraphText">Check me out on Github</p>
+         <a class = "center paragraphText" href = "https://github.com/CDandu16">Projects</a>
+       </section>
    </body>
 </html>
