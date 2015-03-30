@@ -1,4 +1,4 @@
-/*var starTime = Date.now();
+var starTime = Date.now();
 var container;
 var camera, scene, render, stats;
 var cube;
@@ -56,6 +56,6 @@ animate();
 
         renderer.render( scene, camera );
     }
-}*/
+}
 
 alert("hello");
